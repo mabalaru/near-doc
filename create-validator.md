@@ -251,3 +251,7 @@ The outputs like below:
 ![](./images/13.png?raw=true)
 
 
+
+# TODO plan
+- [ ] Update an old version of the staking pool
+- [ ] Stake pool methods
