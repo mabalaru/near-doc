@@ -1,5 +1,5 @@
 # Enroll Your Node
-## pull request to the VALIDATORS.md file
+## Pull request to the VALIDATORS.md file
 
 You can go to https://github.com/nearprotocol/stakewars/blob/master/VALIDATORS.md click the pencil icon to edit directly or fork the stakewars repo, then clone it to your local, add with your favourite editor, then push to your repo, then do a pull request to the stakewars.
 
@@ -28,7 +28,7 @@ such as:
 
 After this, click "Create pull request" button. Then you just need wait it to be merged.
 
-## lock your contract
+## Lock your contract
 
 Suppose our pool id is `stakepool.xiaoshen.betanet`.
 
@@ -48,7 +48,7 @@ if you succeed, you can see the transaction in the explorer: https://explorer.be
 
 ![](./images/lock-contract.png?raw=true)
 
-## delegate some tokens
+## Delegate some tokens
 
 Let's deposit 10 Near.
 
@@ -60,9 +60,9 @@ The outputs like below:
 
 ![](./images/12.png?raw=true)
 
-## Stake
+Then Stake 10 Near,
 
-Note, we use yocto here:
+Note, we use yocto here `(1 NEAR= 10^24 yocto)`:
 
 ```
 near call stakepool.xiaoshen.betanet stake '{"amount": "1000000000000000000000000"}' --accountId xiaoshen.betanet
@@ -73,7 +73,7 @@ The outputs like below:
 ![](./images/13.png?raw=true)
 
 
-## become a validator
+## Become a validator
 
 If you get enough tokens,you will enter valdiators set.
 
@@ -92,9 +92,9 @@ near validators proposal
 ```
 
 
-## check that your pool and your node are correctly configured
+## Check that your pool
 
-First you can check as upper steps, does the pool is in the validators set.
+First you can check as upper steps, is the pool in the validators set.
 
 
 Next, check the seat price:
