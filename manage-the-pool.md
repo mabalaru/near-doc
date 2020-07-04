@@ -69,4 +69,7 @@ near call stakingPool_ID unstake '{"amount": "200000000000000000000000000"}' --a
 near call stakingPool_ID withdraw '{"amount": "200000000000000000000000000"}' --accountId account_ID
 ```
 
+## More contract methods
+
+Refer to this repo: https://github.com/near/core-contracts/tree/master/staking-pool#usage
 
