@@ -5,7 +5,7 @@ We can use rpc methods mentioned at https://docs.near.org/docs/interaction/rpc t
 
 I create a simple python script to show this.
 
-You can check the code here: [](./monitor_uptime.py).
+You can check the code here: https://github.com/marshall-d-teach/near-doc/blob/master/monitor_uptime.py
 
 ## monitor node version
 
